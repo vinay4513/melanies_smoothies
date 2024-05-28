@@ -33,7 +33,7 @@ Ingredients_list = st.multiselect("choose upto 5 ingrediants :"
                                   ,max_selections = 5)
 
 if Ingredients_list:
-    ingredients_string = ' '
+    ingredients_string = ''
 
     for fruit in Ingredients_list:
         ingredients_string += fruit +' '
